@@ -1,0 +1,112 @@
+/* Impaired vision other elements */
+
+.quotes-text {
+	color:white;
+	transition: color 0.3s ease-in;
+}
+
+.quotes-author {
+	font-size: 1.5rem;
+	color: white;
+	transition: color 0.3s ease-in;
+}
+
+.btn-primary {
+    line-height: 2.2rem;
+}
+	
+.carousel {
+	overflow: visible;
+}
+
+@media (max-width: 426px) {
+	.carousel-inner {
+		height: auto;
+	}
+	
+	.carousel-control-prev, .carousel-control-next {
+		top: -80px;
+	}
+}
+
+.carousel-caption {
+	height: 240px;
+	width: 80%;
+}
+
+.info-docs {
+    float: none;
+	width: 240px;
+}
+
+.info-docs p {
+    display: inline-block;
+    width: auto;
+    margin-left: 2px;
+	margin-top: 15px;
+}
+
+
+
+.two-logos {
+	margin-bottom: 15px;
+}
+
+.two-logos img {
+	height: 70px;
+}
+
+@media (max-width: 520px) {
+	.footer {
+		left: 2.5%;
+	}
+}
+
+@media (max-width: 768px) {
+	.two-logos img {
+		height: 70px;
+	}
+}
+
+.toggle {
+    margin-bottom: 20px;
+}
+
+.btn-primary, .person-info, .info-docs p, .list-description, #rehab-tab p {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: white;
+	transition: font-size 0.3s ease-in;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+	font-size: 1.5rem;
+	transition: font-size 0.3s ease-in;
+}
+
+.dataTables_empty {
+	font-size: 1.5rem;
+	color: white;
+}
+
+.dataTables_wrapper .dataTables_info {
+	font-size: 1.5rem;
+	color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: white !important;
+}
+
+.ellipsis {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: !important;
+} */
