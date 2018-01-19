@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+	
+	<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel='stylesheet prefetch' href='https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css'>
+	
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Karlag Museum</title>
+</head>
+<body>
+
+<div class="navbar-background"></div>
+<div class="navbar-no-click-zone"></div>
+
+<div class="topnav">
+	<div class="topnav-logo">
+		<div class="nav-link a-link" data-link="#homepage-tab" data-toggle="tab" href="#homepage-tab">
+			<a>
+				<img src="http://image.ibb.co/e0OLXG/imena_i_sudbi_logo.png">
+			</a>
+		</div>
+	</div>
+	<!-- <div class="topnav-menu" id="normal-vision">
+		<div class="topnav-menu-height-check">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="menu-item" id="menu-item-01">
+				<button class="nav-link a-link" data-link="#executed-tab" data-toggle="tab" href="#executed-tab"><a>
+					Расстрелянные
+				</a></button>
+			</div>
+			<div class="menu-item">
+				<button class="accordion nav-link #repressed-knb-tab #repressed-sga-dknb-tab" href="javascript:void(0)">
+					<a>Репрессированные&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+				</button>
+				<div class="panel">
+					<ul>
+						<li><button class="a-link" data-toggle="tab" href="#repressed-knb-tab"><a>Списки КНБ РК</a></button></li>
+						<li><button class="a-link" data-toggle="tab" href="#repressed-sga-dknb-tab"><a>Списки СГА ДКНБ</a></button></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu-item">
+				<button class="nav-link a-link" data-toggle="tab" href="#ecclesiastic-tab">
+					<a>Священнослужители</a>
+				</button>
+			</div>
+
+			<div class="menu-item">
+				<button class="nav-link a-link" data-toggle="tab" href="#children-tab">
+					<a>Дети&nbspКарлага</a>
+				</button>
+			</div>
+
+			<div class="menu-item">
+				<button class="nav-link a-link" data-toggle="tab" href="#names-tab">
+					<a>Имена</a>
+				</button>
+			</div>
+			
+			<div class="menu-item">
+				<button class="accordion nav-link #scientists-tab #writers-tab #painters-tab #artists-tab" href="javascript:void(0)"><a>Судьбы&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a></button>
+				<div class="panel" id="panel-destinies">
+					<ul>
+						<li><button class="a-link" data-toggle="tab" href="#scientists-tab"><a>Ученые</a></button></li>
+						<li><button class="a-link" data-toggle="tab" href="#writers-tab"><a>Писатели</a></button></li>
+						<li><button class="a-link" data-toggle="tab" href="#painters-tab"><a>Художники</a></button></li>    
+						<li><button class="a-link" data-toggle="tab" href="#artists-tab"><a>Артисты</a></button></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu-item" id="menu-item-rehab">
+				<button class="nav-link a-link #rehab-tab" data-toggle="tab" href="#rehab-tab">
+					<a>Реабилитация</a>
+				</button>
+			</div>
+			<a href="javascript:void(0)"><span class="sandwich-icon" onclick="openNav()">&#9776;</span></a>
+		</div>
+	</div> -->
+	
+	<div class="topnav-menu" id="impaired-vision">
+		<div class="topnav-menu-height-check">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="iv-menu-col-1st">
+					<div class="menu-item" id="iv-menu-item-01">
+						<button class="nav-link a-link" data-link="#executed-tab" data-toggle="tab" href="#executed-tab"><a>
+							Расстрелянные
+						</a></button>
+					</div>
+					
+					<div class="menu-item">
+						<button class="accordion nav-link #repressed-knb-tab #repressed-sga-dknb-tab" href="javascript:void(0)">
+							<a>Репрессированные&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+						</button>
+						<div class="panel">
+							<ul>
+								<li><button class="a-link" data-toggle="tab" href="#repressed-knb-tab"><a>Списки КНБ РК</a></button></li>
+								<li><button class="a-link" data-toggle="tab" href="#repressed-sga-dknb-tab"><a>Списки СГА ДКНБ</a></button></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="menu-item">
+						<button class="nav-link a-link" data-toggle="tab" href="#ecclesiastic-tab">
+							<a>Священнослужители</a>
+						</button>
+					</div>
+
+					<div class="menu-item">
+						<button class="nav-link a-link" data-toggle="tab" href="#children-tab">
+							<a>Дети&nbspКарлага</a>
+						</button>
+					</div>
+				</div>
+			
+				<div class="iv-menu-col-2nd">
+					<div class="menu-item">
+						<button class="nav-link a-link" data-toggle="tab" href="#names-tab">
+							<a>Имена</a>
+						</button>
+					</div>
+					
+					<div class="menu-item">
+						<button class="accordion nav-link #scientists-tab #writers-tab #painters-tab #artists-tab" href="javascript:void(0)"><a>Судьбы&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a></button>
+						<div class="panel" id="panel-destinies">
+							<ul>
+								<li><button class="a-link" data-toggle="tab" href="#scientists-tab"><a>Ученые</a></button></li>
+								<li><button class="a-link" data-toggle="tab" href="#writers-tab"><a>Писатели</a></button></li>
+								<li><button class="a-link" data-toggle="tab" href="#painters-tab"><a>Художники</a></button></li>    
+								<li><button class="a-link" data-toggle="tab" href="#artists-tab"><a>Артисты</a></button></li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu-item" id="iv-menu-item-rehab">
+						<button class="nav-link a-link #rehab-tab" data-toggle="tab" href="#rehab-tab">
+							<a>Реабилитация</a>
+						</button>
+					</div>
+				</div>
+			<a href="javascript:void(0)">
+				<span class="sandwich-icon" onclick="openNav()">&#9776;</span>
+			</a>
+		</div>
+	</div>
+	
+	<div class="topnav-menu" id="normal-vision">
+		<div class="topnav-menu-height-check">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="iv-menu-col-1st">
+					<div class="menu-item" id="iv-menu-item-01">
+						<button class="nav-link a-link" data-link="#executed-tab" data-toggle="tab" href="#executed-tab"><a>
+							Расстрелянные
+						</a></button>
+					</div>
+					
+					<div class="menu-item">
+						<button class="accordion nav-link #repressed-knb-tab #repressed-sga-dknb-tab" href="javascript:void(0)">
+							<a>Репрессированные&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+						</button>
+						<div class="panel">
+							<ul>
+								<li><button class="a-link" data-toggle="tab" href="#repressed-knb-tab"><a>Списки КНБ РК</a></button></li>
+								<li><button class="a-link" data-toggle="tab" href="#repressed-sga-dknb-tab"><a>Списки СГА ДКНБ</a></button></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="menu-item">
+						<button class="nav-link a-link" data-toggle="tab" href="#ecclesiastic-tab">
+							<a>Священнослужители</a>
+						</button>
+					</div>
+
+					<div class="menu-item">
+						<button class="nav-link a-link" data-toggle="tab" href="#children-tab">
+							<a>Дети&nbspКарлага</a>
+						</button>
+					</div>
+				</div>
+			
+				<div class="iv-menu-col-2nd">
+					<div class="menu-item">
+						<button class="nav-link a-link" data-toggle="tab" href="#names-tab">
+							<a>Имена</a>
+						</button>
+					</div>
+					
+					<div class="menu-item">
+						<button class="accordion nav-link #scientists-tab #writers-tab #painters-tab #artists-tab" href="javascript:void(0)"><a>Судьбы&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a></button>
+						<div class="panel" id="panel-destinies">
+							<ul>
+								<li><button class="a-link" data-toggle="tab" href="#scientists-tab"><a>Ученые</a></button></li>
+								<li><button class="a-link" data-toggle="tab" href="#writers-tab"><a>Писатели</a></button></li>
+								<li><button class="a-link" data-toggle="tab" href="#painters-tab"><a>Художники</a></button></li>    
+								<li><button class="a-link" data-toggle="tab" href="#artists-tab"><a>Артисты</a></button></li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu-item" id="iv-menu-item-rehab">
+						<button class="nav-link a-link #rehab-tab" data-toggle="tab" href="#rehab-tab">
+							<a>Реабилитация</a>
+						</button>
+					</div>
+				</div>
+			<a href="javascript:void(0)">
+				<span class="sandwich-icon" onclick="openNav()">
+					&#9776;
+				</span>
+			</a>
+		</div>
+	</div>
+	
+</div>
+	
+<div class="content">
+	<div class="tab-content text-light">
+		<div class="tab-pane fade" id="homepage-tab">
+			<div class="quotes-wrapper">
+				<p class="quotes-text">&quot; &mdash; Я?? За&nbsp;что?!? &mdash;&nbsp;вопрос, миллионы и&nbsp;миллионы раз повторенный еще до&nbsp;нас и&nbsp;никогда не&nbsp;получивший ответа.&quot;</p>
+				<p class="quotes-author">Александр Солженицын</p>
+			</div>	
+		</div>
+		<div class="tab-pane fade" id="executed-tab">
+			<p class="list-description">Заключенные Карлага ОГПУ-НКВД, отбывавшие срок по&nbspст. 58 УК РСФС и&nbspрасстрелянные в Карлаге по повторному пригору.</p>		
+			<table id="executed" class="table hover dataTable">
+			</table>	
+		</div>
+		<div class="tab-pane fade" id="repressed-knb-tab">
+			<p class="list-description">Репрессированные люди, архивные уголовные дела на&nbspкоторых хранятся в&nbspКНБ РК</p>
+			<table id="repressed-knb" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="repressed-sga-dknb-tab">
+			<p class="list-description">Репрессированные люди, архивные уголовные дела на которых хранятся в&nbspСГА ДКНБ РК</p>
+			<table id="repressed-sga-dknb" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="ecclesiastic-tab">
+			<p class="list-description">Репрессированные<br>священнослужители</p>
+			<table id="ecclesiastic" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="children-tab">
+			<p class="list-description">Дети, родившиеся в годы политических репрессий у женщин, находившихся в исправительно-трудовом лагере ГУЛАГа НКВД-МВД СССР (Караганда, п/я 246).</p>
+			<table id="children" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="names-tab">
+			<p class="list-description">Узники Карлага, по которым есть дополнительная информация</p>
+			<table id="names" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="scientists-tab">
+			<p class="list-description">Ученые</p>
+			<table id="scientists" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="writers-tab">
+			<p class="list-description">Писатели</p>
+			<table id="writers" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="painters-tab">
+			<p class="list-description">Художники</p>
+			<table id="painters" class="table hover dataTable">
+			</table>
+		</div>
+		<div class="tab-pane fade" id="artists-tab">
+			<p class="list-description">Артисты</p>
+			<table id="artists" class="table hover dataTable">
+			</table>
+		</div>				
+		<div class="tab-pane fade" id="rehab-tab"><p class="rehab-text">Если вы&nbsp;хотите реабилитировать человека, бывшего узником Карлага, то, пожалуйста, ознакомьтесь со&nbsp;следующими нормативными документами, которые необходимо заполнить для запуска процедуры реабилитации:</p>
+			<div class="info-docs">
+				<a href="docs/pdf-example.pdf" target="blank">
+					<img src="images/icons/icon-doc-01.png" style="float: left;">
+					<p>Порядок прохождения реабилитации</p>
+				</a>
+			</div>
+			<div class="info-docs">
+				<a href="docs/pdf-example.pdf" target="blank">
+					<img src="images/icons/icon-doc-01.png" style="float: left;">
+					<p>Постановление МВД&nbsp;РК от&nbsp;04.07.1994</p>
+				</a>
+			</div>
+			<div class="info-docs">
+				<a href="docs/pdf-example.pdf" target="blank">
+					<img src="images/icons/icon-doc-01.png" style="float: left;">
+					<p>Акт МВД&nbsp;РК от&nbsp;12.09.1994</p>
+				</a>
+			</div>
+			<div class="info-docs clearboth"></div>
+		</div>
+</div>
+
+<div class="icon-top">
+	<img src="images/icons/icon-top.png">
+</div>
+<div class="footer">
+<!-- 	<p class="scroll-value"></p> -->
+	<a class="two-logos" href="http://karlagmuseum.kz/" target="blank"><img src="images/karlag-museum-logo.png"></a>
+	<!-- <a class="two-logos" href="http://mks.gov.kz/rus/index.php" target="blank"><img src="images/mincult-rk-logo-2.png"></a> -->
+<!-- 	<p class="widthToHeight"></p> -->
+<a href="javascript:void(0)" onclick="impairedVision()" class="vision-version nv"><p>Версия для слабовидящих</p>
+<img src="images/icons/icon-impaired-vision.png">
+</a>
+<a href="javascript:void(0)" onclick="normalVision()" class="vision-version iv"><p>Обычная версия</p></a>
+
+</div>
+
+
+
+<div class="photo-animation">
+		<div class="layer-3-1 photo-animation-layer">
+			<img src="images/pngs/layer-3.png">
+		</div>
+		<div class="layer-3-2 photo-animation-layer">
+			<img src="images/pngs/layer-3.png">
+		</div>	
+		<div class="layer-2-1 photo-animation-layer">
+			<img src="images/pngs/layer-2.png">
+		</div>
+		<div class="layer-2-2 photo-animation-layer">
+			<img src="images/pngs/layer-2.png">
+		</div>	
+		
+		<div class="wire-2-1-1 photo-animation-layer">
+			<img src="images/pngs/wire-2-1.png">
+		</div>
+		<div class="wire-2-1-2 photo-animation-layer">
+			<img src="images/pngs/wire-2-1.png">
+		</div>
+		<div class="wire-2-2-1 photo-animation-layer">
+			<img src="images/pngs/wire-2-2.png">
+		</div>
+		<div class="wire-2-2-2 photo-animation-layer">
+			<img src="images/pngs/wire-2-2.png">
+		</div>	
+		<div class="wire-2-3-1 photo-animation-layer">
+			<img src="images/pngs/wire-2-3.png">
+		</div>
+		<div class="wire-2-3-2 photo-animation-layer">
+			<img src="images/pngs/wire-2-3.png">
+		</div>	
+		
+		<div class="layer-1-1 photo-animation-layer">
+			<img src="images/pngs/layer-1.png">
+		</div>
+		<div class="layer-1-2 photo-animation-layer">
+			<img src="images/pngs/layer-1.png">
+		</div>
+		
+		<div class="wire-1-1-1 photo-animation-layer">
+			<img src="images/pngs/wire-1-1.png">
+		</div>
+		<div class="wire-1-1-2 photo-animation-layer">
+			<img src="images/pngs/wire-1-1.png">
+		</div>
+<!-- 		<div class="wire-1-2-1">
+			<img src="images/pngs/wire-1-2.png">
+		</div>
+		<div class="wire-1-2-2">
+			<img src="images/pngs/wire-1-2.png">
+		</div>	 -->
+		<div class="wire-1-3-1 photo-animation-layer">
+			<img src="images/pngs/wire-1-3.png">
+		</div>
+		<div class="wire-1-3-2 photo-animation-layer">
+			<img src="images/pngs/wire-1-3.png">
+		</div>
+</div>
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="videos/prisoners-web-2.webm" type="video/webm">
+        <source src="videos/prisoners-web-2.mp4" type="video/mp4">
+        <source src="videos/prisoners-web-2.ogv" type="video/ogg">
+    </video>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.0.0/dist/sheetrock.min.js'></script>
+
+<script src='https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js'></script>
+
+<!--
+<script src='https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js'></script>
+-->
+
+<script src='https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'></script>
+<script src='https://cdn.datatables.net/responsive/2.1.1/js/responsive.bootstrap.min.js'></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="js/index.js"></script>
+<!-- <script type='text/javascript' src='js/modernizr.js'></script> -->
+
+<script>
+
+	
+
+
+	<!-- var impairedVision = false; -->
+	<!-- $(".vision-version").click(function(){ -->
+		<!-- if (impairedVision = false) { -->
+			<!-- impairedVision = true; -->
+			<!--  -->
+		<!-- } else { -->
+			<!-- impairedVision = false; -->
+			<!-- $(".vision-version").text("Версия для слабовидящих"); -->
+		<!-- } -->
+	<!-- }); -->
+	<!-- if (impairedVision == true) { -->
+        <!-- $(".a-link").click(function() { -->
+			<!-- closeNav(); -->
+		<!-- }); -->
+	<!-- } else { -->
+		<!-- if ($(window).width() < 1291) { -->
+			<!-- $(".a-link").click(function() { -->
+				<!-- closeNav(); -->
+			<!-- }); -->
+		<!-- } else { -->
+			<!-- openNav(); -->
+		<!-- } -->
+	<!-- } -->
+<!-- }; -->
+
+</script>
+
+</body>
+</html>
