@@ -299,7 +299,7 @@ $(window).resize(function() {
 	if ($(window).width() > 1290 && $("#normal-vision").css("display") == "block") {
         openNav();
 	} else {
-	if ($(window).width() > 1024) {
+	if ($(window).width() > 812) {
 		closeNav();
 		}
 	}
