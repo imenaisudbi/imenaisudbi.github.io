@@ -1435,6 +1435,10 @@ table.dataTable.no-footer {
 		top: 40px;
 	}
 	
+	.footer {
+		bottom: 40px;
+	}
+	
 	.two-logos:nth-child(2) {
 		margin-bottom: 35px;
 	}
