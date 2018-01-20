@@ -556,7 +556,7 @@ ul {
 }
 
 .carousel-inner {
-	height: 440px;
+	height: 350px;
 }
 
 .carousel-inner {
@@ -608,6 +608,7 @@ ul {
 
 .carousel-caption {
     position: relative;
+	display:none;
     right: 0%;
     bottom: 20px;
     left: 0%;
