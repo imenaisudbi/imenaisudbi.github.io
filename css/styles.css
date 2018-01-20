@@ -745,7 +745,7 @@ table.dataTable.no-footer {
 	top:200px;
 	width: 4818px;
 	height: 500px;
-    overflow:hidden;
+    	overflow:hidden;
 	opacity: 1;
 	transition: opacity 0.5s ease-in;
 }
