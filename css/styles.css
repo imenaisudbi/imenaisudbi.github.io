@@ -573,7 +573,7 @@ ul {
 
 .carousel-control-prev {
     width: 50px;
-    top: 220px;
+    top: 280px;
 	transition: opacity 0.3s ease-in;
 }
 
@@ -584,7 +584,7 @@ ul {
 
 .carousel-control-next {
 	width: 50px;
-    top: 220px;
+    top: 280px;
 	left: 50px;
 	transition: opacity 0.3s ease-in;
 }
@@ -1203,11 +1203,11 @@ table.dataTable.no-footer {
 	}
 	
 	.carousel-control-prev {
-		top: 160px;
+		top: 230px;
 	}
 	
 	.carousel-control-next {
-		top: 160px;
+		top: 230px;
 	}
 	
 	#rehab-tab {
@@ -1292,11 +1292,11 @@ table.dataTable.no-footer {
 	}
 	
 	.carousel-control-prev {
-		top: 80px;
+		top: 150px;
 	}
 	
 	.carousel-control-next {
-		top: 80px;
+		top: 150px;
 	}
 }
 
@@ -1422,7 +1422,7 @@ table.dataTable.no-footer {
 	}
 	
 	.carousel-inner {
-		height: 260px;
+		height: 180px;
 	}
 	
 	.carousel-item img {
@@ -1430,15 +1430,15 @@ table.dataTable.no-footer {
 	}
 	
 	.carousel-control-prev {
-		top: 40px;
+		top: 100px;
 	}
 	
 	.carousel-control-next {
-		top: 40px;
+		top: 100px;
 	}
 	
 	.footer {
-		bottom: 40px;
+		bottom: 100px;
 	}
 	
 	.two-logos:nth-child(2) {
