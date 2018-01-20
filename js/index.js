@@ -28,7 +28,10 @@ $(document).ready(function() {
 		}
 	}	
 	
-	
+	var fixedBackground = document.getElementsByClassName('.photo-animation');
+	fixedBackground.addEventListener('touchmove', function(e) {
+		e.preventDefault();
+	}, false);
 
 	function showIconTop() {
 		if (window.location.hash.substring(1) == "homepage-tab") {
