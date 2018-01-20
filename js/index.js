@@ -295,7 +295,7 @@ $(window).resize(function() {
 	if ($(window).width() > 1290 && $("#normal-vision").css("display") == "block") {
         openNav();
 	} else {
-		closeNav();
+		/* closeNav(); */
 	}
 });
 
