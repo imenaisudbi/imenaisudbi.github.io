@@ -1257,6 +1257,10 @@ table.dataTable.no-footer {
 		opacity: 0.5;
 		transition: opacity 0.3s ease-in;
 	}
+	
+	.footer-background {
+		height:100px;
+	}
 
 }
 
