@@ -85,6 +85,9 @@ $(document).ready(function() {
 		$(".fullscreen-bg").css("opacity", "1");
 		$(".photo-animation").css("opacity", "0.4");
 		$(".quotes-wrapper").css("opacity", "1");
+		document.ontouchmove = function (e) {
+  			e.preventDefault();
+		}
 	}
 	
 
