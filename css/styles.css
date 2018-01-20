@@ -42,6 +42,7 @@ body {
 	z-index:1;
 	width:100%;
 	height:140px;
+	pointer-events: none;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -250,8 +251,8 @@ a:focus {
 .quotes-wrapper {
 	display: block;
 	position: fixed;
-	width: 80%;
-	left: 10%;
+	width: 90%;
+	left: 25px;
 	top: 30%;
 	transition: opacity 1s ease-in;
 }
