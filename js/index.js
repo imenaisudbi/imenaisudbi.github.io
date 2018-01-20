@@ -611,6 +611,11 @@ function animationPos(){
 	$(".widthToHeight").text($(".photo-animation-layer").height());
 	$(".photo-animation").css("top", $(window).height() /2 - $(".photo-animation-layer").height() /2 );
 	
+	$(".quotes-wrapper").css("top", $(window).height() / 2.9);
+	if ($(window).width() < 426){
+		$(".quotes-wrapper").css("top", $(window).height() / 3.7);
+	}
+	
 	/* when the width of the $(".photo-animation") is changed trough js it will not be reflected 
 	in the height of the $(".photo-animation-layer") */
 };
