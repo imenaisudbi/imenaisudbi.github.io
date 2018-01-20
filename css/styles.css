@@ -252,6 +252,7 @@ a:focus {
 	display: block;
 	position: fixed;
 	width: 90%;
+	height: auto;
 	left: 25px;
 	top: 30%;
 	transition: opacity 1s ease-in;
