@@ -28,6 +28,12 @@ $(document).ready(function() {
 		}
 	}	
 
+		$('.photo-animation').on('touchmove', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+	});
+	
 	function showIconTop() {
 		if (window.location.hash.substring(1) == "homepage-tab") {
 			$(".icon-top").css("opacity", "0");
