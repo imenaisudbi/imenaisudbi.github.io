@@ -1398,7 +1398,7 @@ table.dataTable.no-footer {
 	.footer {
 		float: left;
 		left: 3.8%;
-		bottom: 50px;
+		bottom: 40px;
 	}
 	
 	.two-logos {
@@ -1438,7 +1438,7 @@ table.dataTable.no-footer {
 	}
 	
 	.footer {
-		bottom: 100px;
+		bottom: 40px;
 	}
 	
 	.two-logos:nth-child(2) {
