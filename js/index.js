@@ -654,6 +654,8 @@ function impairedVision() {
 	
 	closeNav();
 	
+	$(".sandwich-icon").css("color", "rgba(255,255,255,0.5)");
+	
 /*     document.createStyleSheet('css/impaired-vision-styles.css'); */
 	$("head").append($("<link rel='stylesheet' href='css/impaired-vision-styles.css' type='text/css' media='screen' />"));
 	$(".carousel .carousel-control-prev-icon img").attr("src", "images/icons/icon-slide-previous-b.png");
