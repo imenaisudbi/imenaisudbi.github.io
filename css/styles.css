@@ -1411,6 +1411,10 @@ table.dataTable.no-footer {
 
 @media (max-width: 426px){ 
 	
+	.quotes-wrapper {
+		top: 20%;
+	}
+	
 	.dataTables_wrapper {
 		margin-bottom: 180px;
 	}
