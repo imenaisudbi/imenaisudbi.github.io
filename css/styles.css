@@ -1286,6 +1286,12 @@ table.dataTable.no-footer {
 
 
 @media (max-width: 767px){
+	
+	.quotes-text {
+		font-size: 1.8rem;
+		line-height: 2.1rem;
+	}
+	
 	.dataTables_wrapper .dataTables_info {
 		float: none;
 		text-align: left;
@@ -1365,6 +1371,15 @@ table.dataTable.no-footer {
 	.quotes-wrapper {
 		top: 27%;
 		left: 20px;
+	}
+	
+	.quotes-text {
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+	}
+	
+	.quotes-author {
+		font-size: 1.5rem;
 	}
 	
 	.list-description {
