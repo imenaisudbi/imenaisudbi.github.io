@@ -852,7 +852,6 @@ table.dataTable.no-footer {
 
 .icon-top {	
 	position: fixed;
-	display:none;
 	right: 28px;
 	bottom: 120px;
 	cursor: pointer;
