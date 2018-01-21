@@ -272,7 +272,7 @@ a:focus {
 	animation: 0.7s ease-in fadeIn;
 }
 
-.quotes-wrapper {
+.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 	display: block;
 	position: fixed;
 	width: 90%;
@@ -1074,7 +1074,7 @@ table.dataTable.no-footer {
 		cursor: pointer; 
 	}
 
-	.quotes-wrapper {
+	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 		width: 90%;
 		left: 27px;
 		top: 30%;
@@ -1284,7 +1284,7 @@ table.dataTable.no-footer {
 }
 
 @media (max-width: 970px) {
-	.quotes-wrapper {
+	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 		top: 33%;
 	}
 
@@ -1386,7 +1386,7 @@ table.dataTable.no-footer {
         font-size: 25px;
     }
 	
-	.quotes-wrapper {
+	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 		top: 27%;
 		left: 20px;
 	}
@@ -1460,7 +1460,7 @@ table.dataTable.no-footer {
 
 @media (max-width: 426px){ 
 	
-	.quotes-wrapper {
+	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 		top: 20%;
 	}
 	
