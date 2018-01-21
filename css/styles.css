@@ -762,12 +762,12 @@ table.dataTable.no-footer {
 /* PHOTO-ANIMATION */
 
 .photo-animation {
-	display: none;
+	display: block;
 	position:fixed;
 	z-index: -1;
 	top:200px;
 	width: 4818px;
-	height: 500px;
+	height: 700px;
     	overflow:hidden;
 	opacity: 1;
 	transition: opacity 0.5s ease-in;
@@ -1251,9 +1251,7 @@ table.dataTable.no-footer {
 	}
 	
 	.photo-animation {
-		display: block;
-		top: 200px;
-		height: 500px;
+		height: 700px;
 	}
 	
 	.fullscreen-bg {
