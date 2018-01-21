@@ -617,7 +617,7 @@ function animationPos(){
 	}
 	
 	$(".quotes-wrapper-1").ready(function(){
-		$(".quotes-wrapper-1").css("top", $(window).height() / 2 - $(".quotes-wrapper-1").height() / 1.3);
+		$(".quotes-wrapper-1").css("top", $(window).height() / 2 - $(".quotes-wrapper-1").height() / 2);
 		$(".quotes-wrapper-2").css("top", $(window).height() / 2 - $(".quotes-wrapper-2").height() / 1.8);
 		$(".quotes-wrapper-3").css("top", $(window).height() / 2 - $(".quotes-wrapper-3").height() / 1.8);
 		/*$(".gauge").text($(".quotes-wrapper-1").height());*/
