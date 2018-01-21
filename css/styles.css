@@ -282,6 +282,95 @@ a:focus {
 	transition: opacity 1s ease-in;
 }
 
+@keyframes quoteFade1 {
+    0% {
+        opacity: 0;
+    }
+  
+    3% {
+        opacity: 1;
+    }
+  
+    30% {
+        opacity: 1;
+    }
+  
+    33% {
+        opacity: 0;
+    }
+      100% {
+        opacity: 0;
+    }
+}
+
+@keyframes quoteFade2 {
+    0% {
+        opacity: 0;
+    }
+  
+    33% {
+        opacity: 0;
+    }
+  
+    36% {
+        opacity: 1;
+    }
+  
+    63% {
+        opacity: 1;
+    }
+  
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes quoteFade3 {
+    0% {
+        opacity: 0;
+    }
+  
+    66% {
+        opacity: 0;
+    }
+  
+    69% {
+        opacity: 1;
+    }
+  
+    96% {
+        opacity: 1;
+    }
+  
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.quotes-wrapper-1 {
+  animation-name: quoteFade1;
+  animation-duration: 36s;
+  animation-iteration-count: infinite;
+}
+
+.quotes-wrapper-2 {
+  animation-name: quoteFade2;
+  animation-duration: 36s;
+  animation-iteration-count: infinite;
+}
+
+.quotes-wrapper-3 {
+  animation-name: quoteFade3;
+  animation-duration: 36s;
+  animation-iteration-count: infinite;
+}
+
 .quotes-text {
 	font-size: 4rem;
 	line-height: 4.7rem;
