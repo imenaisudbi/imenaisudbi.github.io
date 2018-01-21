@@ -613,7 +613,7 @@ function animationPos(){
 	
 	$(".quotes-wrapper").css("top", $(window).height() / 2.9);
 	if ($(window).width() < 426){
-		$(".quotes-wrapper").css("top", $(window).height() / 3.7);
+		$(".quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3").css("top", $(window).height() / 3.7);
 	}
 	
 	/* when the width of the $(".photo-animation") is changed trough js it will not be reflected 
