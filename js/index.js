@@ -37,21 +37,26 @@ $(document).ready(function() {
 	function showIconTop() {
 		if (window.location.hash.substring(1) == "homepage-tab") {
 			$(".icon-top").css("opacity", "0");
+			$(".icon-top").css("display", "none");
 			$(".icon-top").css("pointer-events", "none");
 		}
 		if ($(window).height() == $(document).height()) {
 			$(".icon-top").css("opacity", "0");
+			$(".icon-top").css("display", "none");
 			$(".icon-top").css("pointer-events", "none");
 		}
 		if (/* $(window).width() < 1024 &&  */window.location.hash.substring(1) != "homepage-tab") {
 			$(".icon-top").css("opacity", "0");
+			$(".icon-top").css("display", "none");
 			$(".icon-top").css("pointer-events", "none");
 			$(window).scroll(function() {
 				if(window.location.hash.substring(1) != "homepage-tab" && $(window).scrollTop() + $(window).height() + 100 > $(document).height() / 3) {
 					$(".icon-top").css("opacity", "1");
+					$(".icon-top").css("display", "block");
 					$(".icon-top").css("pointer-events", "auto");
 				} else {
 					$(".icon-top").css("opacity", "0");
+					$(".icon-top").css("display", "none");
 					$(".icon-top").css("pointer-events", "none");
 				}
 			});
