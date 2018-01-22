@@ -659,7 +659,7 @@ function impairedVision() {
 	
 	closeNav();
 	
-	$(".sandwich-icon").css("color", "white");
+	$(".sandwich-icon, .closebtn").css("color", "white");
 	
 /*     document.createStyleSheet('css/impaired-vision-styles.css'); */
 	$("head").append($("<link rel='stylesheet' href='css/impaired-vision-styles.css' type='text/css' media='screen' />"));
@@ -681,8 +681,8 @@ function normalVision() {
 	
 	fadeIn($("#normal-vision"));
 	$("#impaired-vision").css("display", "none");
-	
-	$(".sandwich-icon").css("color", "rgba(255,255,255,0.5");
+		
+	$(".sandwich-icon, .closebtn").css("color", "rgba(255,255,255,0.5");
 	
 	if ($(window).width() > 1290) {
 		openNav();
