@@ -287,7 +287,6 @@ a:focus {
 	width: 90%;
 	height: auto;
 	left: 25px;
-	top: 30%;
 	transition: opacity 1s ease-in;
 }
 
@@ -1175,7 +1174,6 @@ table.dataTable.no-footer {
 	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 		width: 90%;
 		left: 27px;
-		top: 30%;
 	}
 	
 	.quotes-text {
@@ -1483,7 +1481,6 @@ table.dataTable.no-footer {
     }
 	
 	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
-		top: 27%;
 		left: 20px;
 	}
 	
@@ -1557,7 +1554,7 @@ table.dataTable.no-footer {
 @media (max-width: 426px){ 
 	
 	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
-		top: 20%;
+
 	}
 	
 	.dataTables_wrapper {
