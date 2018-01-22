@@ -460,8 +460,9 @@ a:focus {
 	position:relative;
     left: 0px;
 	width: 100%;
+	font-size:1rem;
     background-color: rgba(0,0,0,0);
-    padding: 1px 10px 5px 5px;
+    padding: 1px 10px 3px 5px;
 	margin-left:0em;
     border-width: 1px;
 	border-style: solid;
@@ -474,12 +475,11 @@ a:focus {
     left: 0px;
 	width: 100%;
     background-color: rgba(0,0,0,0);
-    padding: 1px 10px 5px 5px;
+    padding: 1px 10px 3px 5px;
 	margin-left:0em;
     border-width: 1px;
 	color: white;
 }
-
 
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
