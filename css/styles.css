@@ -274,7 +274,7 @@ a:focus {
 
 .quotes-wrapper-main {
 	display: flex;
-	height: 85vh;
+	height: 90vh;
 	flex-direction: column;
 	justify-content: center;
 	resize: vertical;
