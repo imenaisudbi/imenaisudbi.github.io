@@ -1551,7 +1551,11 @@ table.dataTable.no-footer {
 	}
 }
 
-@media (max-width: 426px){ 
+@media (max-width: 426px){
+	
+	.quotes-wrapper-main {
+		height: 85vh;
+	}
 	
 	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 
