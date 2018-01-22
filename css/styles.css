@@ -1468,14 +1468,14 @@ table.dataTable.no-footer {
         font-size: 1.1rem;
     }
 	
-	.closebtn {
-        top:21px;
-        right:19px;
-        font-size: 40px;
+.closebtn {
+	top:18.5px;
+	right:19px;
+	font-size: 40px;
     }
 	
-    .sandwich-icon {
-        top:34.5px;
+.sandwich-icon {
+        top:32px;
         right:18px;
         font-size: 25px;
     }
