@@ -1379,7 +1379,6 @@ table.dataTable.no-footer {
 
 @media (max-width: 970px) {
 	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
-		top: 33%;
 	}
 
 	.quotes-text {
