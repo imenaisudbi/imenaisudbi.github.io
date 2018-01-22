@@ -611,7 +611,7 @@ function animationPos(){
 	$(".widthToHeight").text($(".photo-animation-layer").height());
 	$(".photo-animation").css("top", $(window).height() /2 - $(".photo-animation-layer").height() /2 );
 	
-	$(".quotes-wrapper").css("top", $(window).height() / 2.9);
+	/* $(".quotes-wrapper").css("top", $(window).height() / 2.9);
 	if ($(window).width() < 426){
 		$(".quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3").css("top", $(window).height() / 3.7);
 	}
@@ -620,8 +620,7 @@ function animationPos(){
 		$(".quotes-wrapper-1").css("top", $(window).height() / 2 - $(".quotes-wrapper-1").height() / 2);
 		$(".quotes-wrapper-2").css("top", $(window).height() / 2 - $(".quotes-wrapper-2").height() / 1.8);
 		$(".quotes-wrapper-3").css("top", $(window).height() / 2 - $(".quotes-wrapper-3").height() / 1.8);
-		/*$(".gauge").text($(".quotes-wrapper-1").height());*/
-	});
+	});*/
 	/* when the width of the $(".photo-animation") is changed trough js it will not be reflected 
 	in the height of the $(".photo-animation-layer") */
 };
