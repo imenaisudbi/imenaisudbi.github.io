@@ -272,6 +272,15 @@ a:focus {
 	animation: 0.7s ease-in fadeIn;
 }
 
+.quotes-wrapper-main {
+	display: flex;
+	height: 85vh;
+	flex-direction: column;
+	justify-content: center;
+	resize: vertical;
+	overflow: auto;
+}
+
 .quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 	display: block;
 	position: fixed;
