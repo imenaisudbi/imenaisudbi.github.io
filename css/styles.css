@@ -287,7 +287,7 @@ a:focus {
 	display: block;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-60%);
+	transform: translateY(-50%);
 	width: 90%;
 	height: auto;
 	left: 25px;
@@ -1562,7 +1562,7 @@ table.dataTable.no-footer {
 	}
 	
 	.quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
-
+		transform: translateY(-60%);
 	}
 	
 	.dataTables_wrapper {
