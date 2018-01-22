@@ -273,20 +273,24 @@ a:focus {
 }
 
 .quotes-wrapper-main {
-	display: flex;
+	position: relative;
 	height: 90vh;
+/* 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	resize: vertical;
-	overflow: auto;
+	overflow: auto; */
 }
 
 .quotes-wrapper-1, .quotes-wrapper-2, .quotes-wrapper-3 {
 	display: block;
-	position: fixed;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-60%);
 	width: 90%;
 	height: auto;
 	left: 25px;
+/* 	top: 30%; */
 	transition: opacity 1s ease-in;
 }
 
